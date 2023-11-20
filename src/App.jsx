@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <h1>Weijie is a nerd!🤓</h1>
+   <h1>Hello World</h1>
   )
 }
 
