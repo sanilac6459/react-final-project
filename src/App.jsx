@@ -14,7 +14,7 @@ function App() {
                 C++ info website
             </h1>
             <p class="text-small">
-                Here is all the things you need to learn when programming in C++
+                Here is all the things you need to learn when programming in C++ 🤔
             </p>
         </div>
     </div>
@@ -24,9 +24,15 @@ function App() {
             <h1 class="text-big">
             How to print statement and take in user’s input
             </h1>
-            <p class="text-small">
-                Here is all the things you need to learn in C++
-            </p>
+                <ul class = "list-text">
+                    <li>For printing statements, you would use cout and the symbols {"<<"} </li>
+                        <li>If you want to print the text Hello World {"->"} cout {"<<"} "Hello World";</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul>
+
+
+            
         </div>
     </div>
 
@@ -99,17 +105,6 @@ function App() {
     <div class="box-main">
         <div class="firstHalf">
             <h1 class="text-big">
-            Strings and methods 
-            </h1>
-            <p class="text-small">
-                Here is all the things you need to learn in C++
-            </p>
-        </div>
-    </div>
-
-    <div class="box-main">
-        <div class="firstHalf">
-            <h1 class="text-big">
             Generate random numbers 
             </h1>
             <p class="text-small">
@@ -143,7 +138,7 @@ function App() {
     <div class="box-main">
         <div class="firstHalf">
             <h1 class="text-big">
-            Classes, constructors, methods 
+            Object oriented
             </h1>
             <p class="text-small">
                 Here is all the things you need to learn in C++
