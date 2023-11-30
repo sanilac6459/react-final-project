@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import logo from './img/logo.gif'
+// BIG THINGS HAPPENING
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
               <h1 class="text-big">
                   C++ info website
               </h1>
+              <img src={logo} alt="C++ Users nerd emoji gif" />
               <h3 class="sub-heading">
                   Here is all the things you need to learn when programming in C++
               </h3>
