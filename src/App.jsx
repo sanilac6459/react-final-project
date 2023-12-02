@@ -4,14 +4,20 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import logo from './img/logo.gif'
 import helloWorld from './img/coding-hello-world.gif'
+import bgMusic from "./assets/Hall-of-Horoscope.mp3"
 // BIG THINGS HAPPENING
 
 
 function App() {
     const [count, setCount] = useState(0)
-  
+    function play()
+    {
+      new Audio(bgMusic).play()
+    }
     return (
+      
       <section class="section">
+  <audio src="/home/rb4271/react-final-project/public/Hall-of-Horoscope.mp3" autoPlay loop />
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
