@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import logo from './img/logo.gif'
+import helloWorld from './img/coding-hello-world.gif'
 // BIG THINGS HAPPENING
 
 
@@ -30,11 +31,13 @@ function App() {
               </h2>
             
                   <ul> 
-                    <li>When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and <strong> and implement using namespace std</strong></li>
-                    <li>At the end of every line, remember to add a semi-colon or your program will break</li>
+                    <li>When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and <strong> and implement using namespace std</strong>
+                    <br></br><b>using namespace std</b> means you're using the standard defintions for keywords like cin, cout,to_string, etc.</li>
+                    <li>At the end of every line [with some exceptions], remember to add a semi-colon or your program will break. The semicolon is kind of like the period in regular writing. It lets the compiler know when each line is done when it's reading the code.</li>
                     <li>When coding in the main function, <strong>int main()</strong>, add the syntax <strong>return 0; </strong> which will end your program once it's runned</li><br></br>
                     
                       <li><strong>Print statements</strong></li>
+                      <img src={helloWorld} alt="anime boi typing furiously to cout hello world" />
                         <ul>
                           <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
                           <ul>
@@ -48,7 +51,8 @@ function App() {
                         </ul><br></br>
                     <li><strong>New line</strong></li>
                     <ul>
-                      <li>Use <strong>\n</strong> or <strong>endl</strong> to add a new line after a statement</li>
+                      <li>Use <strong>\n</strong> or <strong>endl</strong> to add a new line after a statement
+                      <br></br>For example, "\n [your string]" or "your string" {"<<"} endl; Both can be used, and not just with strings. Concatenating \n with ints, doubles, booleans, and more, is possible.</li>
                     </ul><br></br>
                     <li><strong>String methods</strong></li>
                     <ul>
