@@ -134,7 +134,7 @@ function App() {
               Recursion 
               </h1>
               <p class="text-small">
-                  Here is all the things you need to learn in C++
+                  Recursive functions are functions that call themselves, usually until a certain result is reached.
               </p>
           </div>
       </div>
