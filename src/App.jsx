@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import logo from './img/logo.gif'
 import helloWorld from './img/coding-hello-world.gif'
+import emoji from'./img/emoji2.gif'
+import fruits from './img/fruit loops.gif'
 import bgMusic from "./assets/Hall-of-Horoscope.mp3"
 // BIG THINGS HAPPENING
 
@@ -71,7 +73,7 @@ function App() {
                     <h3> <li><strong>Conditionals</strong></li> </h3>
                     
                     <h3> <li><strong>Loops</strong></li> </h3> 
-                    
+                    <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/>
                     <h3> <li><strong>Functions</strong></li> </h3>
                     <h3> <li><strong>Generating random numbers</strong></li> </h3>
                     <ul>
@@ -146,6 +148,7 @@ function App() {
               <p class="text-small">
                   Recursive functions are functions that call themselves, usually until a certain result is reached.
               </p>
+              <img src={emoji} alt="congrats emoji gif" class = "center"/>
           </div>
       </div>
   
