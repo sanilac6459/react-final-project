@@ -43,7 +43,7 @@ function App() {
                     <li>When coding in the main function, <strong>int main()</strong>, add the syntax <strong>return 0; </strong> which will end your program once it's runned</li><br></br>
                     
                       <li><strong>Print statements</strong></li>
-                      <img src={helloWorld} alt="anime boi typing furiously to cout hello world" />
+                      <img src={helloWorld} alt="anime girl typing furiously to cout hello world" />
                         <ul>
                           <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
                           <ul>
