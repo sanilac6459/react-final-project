@@ -39,13 +39,12 @@ function App() {
               </h1>
             
                   <ul> 
-                    <li>When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and <strong> and implement using namespace std</strong>
-                    <br></br><b>using namespace std</b> means you're using the standard defintions for keywords like cin, cout,to_string, etc.</li>
+                    <li>When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and implement<strong> using namespace std</strong>. This means you're using the standard defintions for keywords like cin, cout, to_string, etc.</li>
                     <li>At the end of every line [with some exceptions], remember to add a semi-colon or your program will break. The semicolon is kind of like the period in regular writing. It lets the compiler know when each line is done when it's reading the code.</li>
                     <li>When coding in the main function, <strong>int main()</strong>, add the syntax <strong>return 0; </strong> which will end your program once it's runned</li><br></br>
                     
                      <h2> <li><strong>Print statements</strong></li> </h2>
-                      <img src={helloWorld} alt="anime girl typing furiously to cout hello world" class = "center"/>
+                      <img src={helloWorld} alt="anime girl typing furiously to cout hello world" class = "center"/><br></br>
                         <ul>
                           <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
                           <ul>
@@ -73,9 +72,9 @@ function App() {
                     <h2> <li><strong>Conditionals</strong></li> </h2>
                     
                     <h2> <li><strong>Loops</strong></li> </h2> 
-                    <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/>
-                    <h3> <li><strong>Functions</strong></li> </h3>
-                    <h3> <li><strong>Generating random numbers</strong></li> </h3>
+                    <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
+                    <h2> <li><strong>Functions</strong></li> </h2>
+                    <h2> <li><strong>Generating random numbers</strong></li> </h2>
                     <ul>
                       <li>Import the library <strong>#include {"<cstdlib>"}</strong> and <strong>#include {"<ctime>"}</strong></li>
                       <li>Add <strong>srand(time(NULL))</strong> to get all the results from the random sequence</li>
