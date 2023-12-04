@@ -5,6 +5,10 @@
   text-align: left;
 }
 
+body {
+  background-color: #B4DCE4;
+}
+
 .center{
   text-align: center;
   display: block;
