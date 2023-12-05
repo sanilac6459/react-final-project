@@ -191,7 +191,6 @@ function App() {
       </div>
       <div class = "note">
         <h2 class = "center">Congratulations! You now know C++. Good job buddy, now let's learn CSS!! <br></br>(it's even more fun I swear)</h2><br></br>
-        <li><h3>Me: </h3></li>
           <img src={ham} alt="sad and flat" class = "center"/>
       </div>
   </section>
