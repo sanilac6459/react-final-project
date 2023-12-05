@@ -53,7 +53,7 @@ function App() {
                         <ul>
                          <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
                           <ul>
-                          <li>Ex. <strong>cout {"<<"} "Hello World";</strong> // prints Hello World </li>
+                          <li>Ex. <strong>cout {"<<"} "Hello World"</strong>; // prints Hello World </li>
                             </ul>
                           
                         </ul><br></br>
@@ -63,15 +63,36 @@ function App() {
                         </ul><br></br>
                         <h2>  <li><strong>New line</strong></li> </h2>
                     <ul>
-                      <li>Use <strong>\n</strong> or <strong>endl</strong> to add a new line after a statement
-                      <br></br>For example, "\n [your string]" or "your string" {"<<"} endl; Both can be used, and not just with strings. Concatenating \n with ints, doubles, booleans, and more, is possible.</li>
+                      <li>Use <strong>\n</strong> or <strong>endl</strong> to add a new line after a statement</li>
+                      <li>Ex. "\n [your string]" or "your string" {"<<"} endl; → both can be used, and not just with strings. Concatenating \n with ints (integers), doubles (decimals), booleans (true or false), and more, is possible.</li>
                     </ul><br></br>
                     <h2> <li><strong>String methods</strong></li> </h2>
                     <ul>
-                      <li><strong>.length()</strong> or <strong>.size()</strong> - finding the length of a string</li>
+                      <li><strong>.length()</strong> or <strong>.size()</strong> → finding the length of a string</li>
                       <ul>
-                        <li>Ex.string txt = "Hello World!";</li>
-                      <li>cout {"<<"} <strong>txt.length();</strong> // outputs 12, including the spaces</li>
+                        <li>Ex. string txt = "Hello World!";</li>
+                         cout {"<<"} <strong>txt.length()</strong>; // outputs 12, including the spaces
+                      </ul>
+                      <br></br>
+                      <li>Finding the ith character of a string → <strong>[]</strong></li>
+                      <ul>
+                        <li>Ex. string str = "Gengshin";</li>
+                        cout {"<<"} <strong>str[5]</strong>; // h
+                        <ul>
+                        <li><strong>NOTE: when finding the position of a letter, you're going by the index which starts at 0</strong></li>
+                        str[0] = "G", str[1] = "e", str[2] = "n", etc.
+                        </ul>
+                        <br></br>
+                      </ul>
+                      <li>Substring method → <strong>string substr(pos, len)</strong></li>
+                      <ul>
+                        <li>pos = position of char</li>
+                        <li>len = length of substring</li>
+                        <ul>
+                          <li>Ex. string str1 = "Programming in C++.";</li>
+                          string str2 = str1<strong>.substr(3,4)</strong>; // gram → gets 4 letters from index 3 <br></br>
+                          string str3 = str1<strong>.substr(15)</strong>; // C++ → get all the letters from index 15
+                        </ul>
                       </ul>
                     </ul><br></br>
                     <h2> <li><strong>Conditionals</strong></li> </h2>
