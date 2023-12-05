@@ -44,14 +44,14 @@ function App() {
               </h1>
             
                   <ul> 
-                    <li>When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and implement<strong> using namespace std</strong>. This means you're using the standard defintions for keywords like cin, cout, to_string, etc.</li>
+                    <li class = "list">When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and implement<strong> using namespace std</strong>. This means you're using the standard defintions for keywords like cin, cout, to_string, etc.</li>
                     <li>At the end of every line [with some exceptions], remember to add a semi-colon or your program will break. The semicolon is kind of like the period in regular writing. It lets the compiler know when each line is done when it's reading the code.</li>
                     <li>When coding in the main function, <strong>int main()</strong>, add the syntax <strong>return 0; </strong> which will end your program once it's runned</li><br></br>
                     
                      <h2> <li><strong>Print statements</strong></li> </h2>
                       <img src={helloWorld} alt="anime girl typing furiously to cout hello world" class = "center"/><br></br>
                         <ul>
-                          <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
+                         <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
                           <ul>
                           <li>Ex. <strong>cout {"<<"} "Hello World";</strong> // prints Hello World </li>
                             </ul>
@@ -119,11 +119,15 @@ function App() {
               <p class="text-small">
                   Object Oriented Programming (OOP) is based on the idea of classes. Classes are like templates, they have their own instance variables, functions, and are often used to store information in an orderly way. For example, we could make a person class. Each person has a name, age, birthdate, country of origin, etc. These values can be stored as strings, ints, doubles, you name it! Instead of declaring and initialzing each variable for every single person, the Person class can take care of that for you, sort of like a container for all that info. It's like if you asked a person to fill out an official government form with set questions, vs giving them a blank piece of paper and asking them to provide info about themselves. You wouldn't have to tell them "write your name, age, etc.", it would be written on the paper itself.
                   <br></br> So, in simpler terms, classes can allow you to make custom variable types. Strings have their own set functions, as do ints, and doubles, chars, bools.. they are just data types. Classes are a way of making your own data types.
-                  <br></br><img src={classExample} alt="w3schools explain classes" class = "center"/><br></br>
+                  <br></br>
+                  <br></br>
+                  <img src={classExample} alt="w3schools explain classes" class = "center"/><br></br>
                   This image from w3schools shows a standard class declaration. Here, since the 2 variables are public, they may be accessed outside of the class. However, if the variables were private, you might have to make get and set member functions. The private keyword is a great way to restrict access to functions or variables outside of the class declaration, especially if you don't want people changing stuff willy nilly.
                   Also, another commmon convention of classes is to create a constructor. Here, there is no constructor, but since all the variables are public, to set their value you can just do myObject.varName = value;
                   Constructors are typically written as classname() under public: in the class declaration. Inside the constructor, it initalizes all the member variables to their default value. With a constructor, you can then make objects of that class by writing className objectName = new className(), assuming you are using the default constructor, which has no parameters. Nondefault constructors function the same way, except they use parameters as the values for the data members.
                   <br></br><br></br> Now, let's imagine you actually have a life, (a life object made with a life class), below may be some functions that are part of the life class.
+                  <br></br>
+                  <br></br>
                   <img src={life} alt="if code described life" class = "center"/>
               </p>
           </div>
@@ -159,13 +163,13 @@ function App() {
               <p class="text-small">
                   Recursive functions are functions that call themselves, usually until a certain result is reached.
               </p>
-              <img src={recur} alt="recursive dancing" class = "center"/>
+              <img src={recur} alt="recursive dancing" class = "center"/><br></br>
           </div>
       </div>
       <div class = "note">
-        <h2>Congratulations! You now know C++. Good job buddy, now let's learn CSS!! <br></br>(it's even more fun I swear)</h2>
-        <li><h3>Me: </h3></li><
-          img src={ham} alt="sad and flat" class = "center"/>
+        <h2 class = "center">Congratulations! You now know C++. Good job buddy, now let's learn CSS!! <br></br>(it's even more fun I swear)</h2><br></br>
+        <li><h3>Me: </h3></li>
+          <img src={ham} alt="sad and flat" class = "center"/>
       </div>
   </section>
   
