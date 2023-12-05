@@ -64,7 +64,9 @@ function App() {
                         <h2>  <li><strong>New line</strong></li> </h2>
                     <ul>
                       <li>Use <strong>\n</strong> or <strong>endl</strong> to add a new line after a statement</li>
+                      <ul>
                       <li>Ex. "\n [your string]" or "your string" {"<<"} endl; → both can be used, and not just with strings. Concatenating \n with ints (integers), doubles (decimals), booleans (true or false), and more, is possible.</li>
+                      </ul>
                     </ul><br></br>
                     <h2> <li><strong>String methods</strong></li> </h2>
                     <ul>
