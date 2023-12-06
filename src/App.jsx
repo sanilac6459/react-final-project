@@ -41,6 +41,7 @@ function App() {
               <h3 class="sub-heading">
                   Here is all the things you need to learn when programming in C++
               </h3>
+              <h3>(Yes, us creators woke up and chose violence :D )</h3>
           </div>
       </div>
           
