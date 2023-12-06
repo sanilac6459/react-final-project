@@ -18,6 +18,7 @@ import vector from "./img/vector.gif"
 import pointer from "./img/pointers.gif"
 import omnom from "./img/string.gif"
 import inheritance from "./img/matroyoshka.gif"
+import buttons from "./img/weirdAnimeboi.gif"
 
 // BIG THINGS HAPPENING
 
@@ -41,7 +42,7 @@ function App() {
               <h3 class="sub-heading">
                   Here is all the things you need to learn when programming in C++
               </h3>
-              <h3>(Yes, us creators woke up and chose violence :D )</h3>
+              <h3>(Yes, we woke up and chose violence :D )</h3>
           </div>
       </div>
           
@@ -120,6 +121,7 @@ function App() {
                     <h2> <li><strong>Loops</strong></li> </h2> 
                     <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
                     <h2> <li><strong>Functions</strong></li> </h2>
+                    <img src={buttons} alt="buttons being pushed" class = "center"/>
                     <ul>
                       <li>Functions are used to store pieces of code that does a single task in a defined block. Once you have implemented that, you can call that code when needed</li>
                       <li>The benefit of using functions that it <em>reduces</em> the redundancy of code</li>
