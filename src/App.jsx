@@ -35,9 +35,9 @@ function App() {
   <audio src="/home/rb4271/react-final-project/public/Hall-of-Horoscope.mp3" autoPlay loop />
       <div class="box-main">
           <div class="firstHalf">
-              <h1 class="text-big">
-                  C++ info website
-              </h1>
+              <strong><h1 class="text-big">
+                  C++ for Dummies! <br></br>(Haha, we're all dummies trying to learn :D)
+              </h1></strong>
               <img src={logo} alt="C++ Users nerd emoji gif" class = "center"/>
               <h3 class="sub-heading">
                   Here is all the things you need to learn when programming in C++
@@ -193,7 +193,17 @@ function App() {
               Vectors 
               </h1>
               <p class="text-small">
-                  Here is all the things you need to learn in C++
+                  Vectors are a form of lists in C++. The size can be changed, and just like with other variables, you have to declare the type. 
+                  A standard declaration of a vector looks like: <strong>vector{"<int>"};</strong>. It doesn't have to be of type int, it can also be string, bool, char, and even custom types (provided you made a class and objects of that class).
+                  Remember, to use vectors you <strong>MUST</strong> include <strong>#include {"<vector>"}</strong>
+                  <br></br>
+                  <br></br>
+                  The three most common functions used with vectors are: 
+                  <li><strong>vectorName.push_back(element)</strong> : this adds element to the end of the list</li>
+                  <li><strong>vectorName.pop_back() </strong>: removes the last element of the list</li>
+                  <li><strong>vectorName[i]</strong> : Accesses the element at index i. Like with arrays, the indices start with 0</li>
+                  <li><strong>vectorName.size()</strong> : Returns an int representing the size of the array. The last index can be calculated by writing vectorName.size() - 1</li>
+              
               </p>
               <img src={vector} alt="direction and maginutde" class = "center"/>
           </div>
