@@ -12,6 +12,7 @@ import recur from "./img/recursion.gif"
 import life from "./img/life.gif"
 import classExample from "./img/classDef.png"
 import conditionals from "./img/conditionals.png"
+import conditionalGif from "./img/conditionalTantrum.gif"
 
 // BIG THINGS HAPPENING
 
@@ -107,7 +108,7 @@ function App() {
                     </ul>
                     <br></br>
                     <img src={conditionals} alt="" class = "center"/>
-                    
+                    <img src={conditionalGif} alt="" class = "center"/>
                     <h2> <li><strong>Loops</strong></li> </h2> 
                     <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
                     <h2> <li><strong>Functions</strong></li> </h2>
