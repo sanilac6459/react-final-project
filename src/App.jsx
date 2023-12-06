@@ -13,6 +13,8 @@ import life from "./img/life.gif"
 import classExample from "./img/classDef.png"
 import conditionals from "./img/conditionals.png"
 import conditionalGif from "./img/conditionalTantrum.gif"
+import functions from "./img/functions.png"
+import vector from "./img/vector.gif"
 
 // BIG THINGS HAPPENING
 
@@ -112,6 +114,15 @@ function App() {
                     <h2> <li><strong>Loops</strong></li> </h2> 
                     <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
                     <h2> <li><strong>Functions</strong></li> </h2>
+                    <ul>
+                      <li>Functions are used to store pieces of code that does a single task in a defined block. Once you have implemented that, you can call that code when needed</li>
+                      <li>The benefit of using functions that it <em>reduces</em> the redundancy of code</li>
+                      <li>When writing a function, it's important to know what you want to return. For example, if you want to return an int, the type of function should be an int.</li>
+                      <li>There's also a function type called <strong>void</strong> which has <em>no return value</em></li>
+                      <li>The image below is an example of a function to check if the first number (int n) is divisible by the second (int d):</li> <br></br>
+                    </ul>
+                    <img src={functions} alt="" class = "center"/><br></br>
+                    
                     <h2> <li><strong>Generating random numbers</strong></li> </h2>
                     <ul>
                       <li>Import the library <strong>#include {"<cstdlib>"}</strong> and <strong>#include {"<ctime>"}</strong></li>
@@ -174,6 +185,7 @@ function App() {
               <p class="text-small">
                   Here is all the things you need to learn in C++
               </p>
+              <img src={vector} alt="direction and maginutde" class = "center"/>
           </div>
       </div>
   
