@@ -17,6 +17,7 @@ import functions from "./img/functions.png"
 import vector from "./img/vector.gif"
 import pointer from "./img/pointers.gif"
 import omnom from "./img/string.gif"
+import inheritance from "./img/matroyoshka.gif"
 
 // BIG THINGS HAPPENING
 
@@ -202,6 +203,7 @@ function App() {
               <p class="text-small">
                   Here is all the things you need to learn in C++
               </p>
+              <img src={inheritance} alt="" class = "center"/>
           </div>
       </div>
   
