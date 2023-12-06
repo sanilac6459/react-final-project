@@ -11,6 +11,7 @@ import ham from "./img/ham.gif"
 import recur from "./img/recursion.gif"
 import life from "./img/life.gif"
 import classExample from "./img/classDef.png"
+import conditionals from "./img/conditionals.png"
 
 // BIG THINGS HAPPENING
 
@@ -98,6 +99,14 @@ function App() {
                       </ul>
                     </ul><br></br>
                     <h2> <li><strong>Conditionals</strong></li> </h2>
+                    <ul>
+                      <li>Conditionals are used to determine the flow of your program by evaluating conditions with bools (true or false). If a certain condition is <strong><em>true</em></strong>, the block of code with that condition will run. If the condition is <strong><em>false</em></strong>, that block of code will not run</li>
+                      <li>In code, we used <strong>if-else</strong> statements, along with <strong>else if</strong> statements, to determine which code should be executed</li>
+                      <li>The benefit of using else-if statements is to run multiple conditions without writing a whole bunch of if-statements</li>
+                      <li>The image below is the syntax for conditionals: </li>
+                    </ul>
+                    <br></br>
+                    <img src={conditionals} alt="" class = "center"/>
                     
                     <h2> <li><strong>Loops</strong></li> </h2> 
                     <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
