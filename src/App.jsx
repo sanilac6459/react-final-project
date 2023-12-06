@@ -3,20 +3,35 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import logo from './img/logo.gif'
+import helloWorld from './img/coding-hello-world.gif'
+import emoji from'./img/emoji2.gif'
+import fruits from './img/fruit loops.gif'
+import bgMusic from "./assets/Hall-of-Horoscope.mp3"
+import ham from "./img/ham.gif"
+import recur from "./img/recursion.gif"
+import life from "./img/life.gif"
+import classExample from "./img/classDef.png"
+import conditionals from "./img/conditionals.png"
+
 // BIG THINGS HAPPENING
 
 
 function App() {
     const [count, setCount] = useState(0)
-  
+    function play()
+    {
+      new Audio(bgMusic).play()
+    }
     return (
-      <section class="section">
+      
+  <section class="section">
+  <audio src="/home/rb4271/react-final-project/public/Hall-of-Horoscope.mp3" autoPlay loop />
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
                   C++ info website
               </h1>
-              <img src={logo} alt="C++ Users nerd emoji gif" />
+              <img src={logo} alt="C++ Users nerd emoji gif" class = "center"/>
               <h3 class="sub-heading">
                   Here is all the things you need to learn when programming in C++
               </h3>
@@ -25,45 +40,78 @@ function App() {
           
       <div class="box-main">
           <div class="firstHalf">
-              <h2 class="text-big">
+              <h1 class="text-big">
              Basics
-              </h2>
+              </h1>
             
                   <ul> 
-                    <li>When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and <strong> and implement using namespace std</strong></li>
-                    <li>At the end of every line, remember to add a semi-colon or your program will break</li>
+                    <li class = "list">When coding, make sure you have import the library <strong> #include {"<iostream>"} </strong>and implement<strong> using namespace std</strong>. This means you're using the standard defintions for keywords like cin, cout, to_string, etc.</li>
+                    <li>At the end of every line [with some exceptions], remember to add a semi-colon or your program will break. The semicolon is kind of like the period in regular writing. It lets the compiler know when each line is done when it's reading the code.</li>
                     <li>When coding in the main function, <strong>int main()</strong>, add the syntax <strong>return 0; </strong> which will end your program once it's runned</li><br></br>
                     
-                      <li><strong>Print statements</strong></li>
+                     <h2> <li><strong>Print statements</strong></li> </h2>
+                      <img src={helloWorld} alt="anime girl typing furiously to cout hello world" class = "center"/><br></br>
                         <ul>
-                          <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
+                         <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
                           <ul>
-                          <li>Ex. <strong>cout {"<<"} "Hello World";</strong> // prints Hello World </li>
+                          <li>Ex. <strong>cout {"<<"} "Hello World"</strong>; // prints Hello World </li>
                             </ul>
                           
                         </ul><br></br>
-                      <li><strong>Taking in user's input</strong></li>
+                        <h2> <li><strong>Taking in user's input</strong></li> </h2>
                         <ul>
                           <li>Use <strong>cin</strong> and the symbol <strong>{">>"}</strong></li>
                         </ul><br></br>
-                    <li><strong>New line</strong></li>
+                        <h2>  <li><strong>New line</strong></li> </h2>
                     <ul>
                       <li>Use <strong>\n</strong> or <strong>endl</strong> to add a new line after a statement</li>
-                    </ul><br></br>
-                    <li><strong>String methods</strong></li>
-                    <ul>
-                      <li><strong>.length()</strong> or <strong>.size()</strong> - finding the length of a string</li>
                       <ul>
-                        <li>Ex.string txt = "Hello World!";</li>
-                      <li>cout {"<<"} <strong>txt.length();</strong> // outputs 12, including the spaces</li>
+                      <li>Ex. "\n [your string]" or "your string" {"<<"} endl; → both can be used, and not just with strings. Concatenating \n with ints (integers), doubles (decimals), booleans (true or false), and more, is possible.</li>
                       </ul>
                     </ul><br></br>
-                    <li><strong>Conditionals</strong></li>
+                    <h2> <li><strong>String methods</strong></li> </h2>
+                    <ul>
+                      <li><strong>.length()</strong> or <strong>.size()</strong> → finding the length of a string</li>
+                      <ul>
+                        <li>Ex. string txt = "Hello World!";</li>
+                         cout {"<<"} <strong>txt.length()</strong>; // outputs 12, including the spaces
+                      </ul>
+                      <br></br>
+                      <li>Finding the ith character of a string → <strong>[]</strong></li>
+                      <ul>
+                        <li>Ex. string str = "Gengshin";</li>
+                        cout {"<<"} <strong>str[5]</strong>; // h
+                        <ul>
+                        <li><strong>NOTE: when finding the position of a letter, you're going by the index which starts at 0</strong></li>
+                        str[0] = "G", str[1] = "e", str[2] = "n", etc.
+                        </ul>
+                        <br></br>
+                      </ul>
+                      <li>Substring method → <strong>string substr(pos, len)</strong></li>
+                      <ul>
+                        <li>pos = position of char</li>
+                        <li>len = length of substring</li>
+                        <ul>
+                          <li>Ex. string str1 = "Programming in C++.";</li>
+                          string str2 = str1<strong>.substr(3,4)</strong>; // gram → gets 4 letters from index 3 <br></br>
+                          string str3 = str1<strong>.substr(15)</strong>; // C++ → get all the letters from index 15
+                        </ul>
+                      </ul>
+                    </ul><br></br>
+                    <h2> <li><strong>Conditionals</strong></li> </h2>
+                    <ul>
+                      <li>Conditionals are used to determine the flow of your program by evaluating conditions with bools (true or false). If a certain condition is <strong><em>true</em></strong>, the block of code with that condition will run. If the condition is <strong><em>false</em></strong>, that block of code will not run</li>
+                      <li>In code, we used <strong>if-else</strong> statements, along with <strong>else if</strong> statements, to determine which code should be executed</li>
+                      <li>The benefit of using else-if statements is to run multiple conditions without writing a whole bunch of if-statements</li>
+                      <li>The image below is the syntax for conditionals: </li>
+                    </ul>
+                    <br></br>
+                    <img src={conditionals} alt="" class = "center"/>
                     
-                    <li><strong>Loops</strong></li>
-                    
-                    <li><strong>Functions</strong></li>
-                    <li><strong>Generating random numbers</strong></li>
+                    <h2> <li><strong>Loops</strong></li> </h2> 
+                    <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
+                    <h2> <li><strong>Functions</strong></li> </h2>
+                    <h2> <li><strong>Generating random numbers</strong></li> </h2>
                     <ul>
                       <li>Import the library <strong>#include {"<cstdlib>"}</strong> and <strong>#include {"<ctime>"}</strong></li>
                       <li>Add <strong>srand(time(NULL))</strong> to get all the results from the random sequence</li>
@@ -101,7 +149,18 @@ function App() {
               Object oriented
               </h1>
               <p class="text-small">
-                  Here is all the things you need to learn in C++
+                  Object Oriented Programming (OOP) is based on the idea of classes. Classes are like templates, they have their own instance variables, functions, and are often used to store information in an orderly way. For example, we could make a person class. Each person has a name, age, birthdate, country of origin, etc. These values can be stored as strings, ints, doubles, you name it! Instead of declaring and initialzing each variable for every single person, the Person class can take care of that for you, sort of like a container for all that info. It's like if you asked a person to fill out an official government form with set questions, vs giving them a blank piece of paper and asking them to provide info about themselves. You wouldn't have to tell them "write your name, age, etc.", it would be written on the paper itself.
+                  <br></br> So, in simpler terms, classes can allow you to make custom variable types. Strings have their own set functions, as do ints, and doubles, chars, bools.. they are just data types. Classes are a way of making your own data types.
+                  <br></br>
+                  <br></br>
+                  <img src={classExample} alt="w3schools explain classes" class = "center"/><br></br>
+                  This image from w3schools shows a standard class declaration. Here, since the 2 variables are public, they may be accessed outside of the class. However, if the variables were private, you might have to make get and set member functions. The private keyword is a great way to restrict access to functions or variables outside of the class declaration, especially if you don't want people changing stuff willy nilly.
+                  Also, another commmon convention of classes is to create a constructor. Here, there is no constructor, but since all the variables are public, to set their value you can just do myObject.varName = value;
+                  Constructors are typically written as classname() under public: in the class declaration. Inside the constructor, it initalizes all the member variables to their default value. With a constructor, you can then make objects of that class by writing className objectName = new className(), assuming you are using the default constructor, which has no parameters. Nondefault constructors function the same way, except they use parameters as the values for the data members.
+                  <br></br><br></br> Now, let's imagine you actually have a life, (a life object made with a life class), below may be some functions that are part of the life class.
+                  <br></br>
+                  <br></br>
+                  <img src={life} alt="if code described life" class = "center"/>
               </p>
           </div>
       </div>
@@ -134,11 +193,15 @@ function App() {
               Recursion 
               </h1>
               <p class="text-small">
-                  Here is all the things you need to learn in C++
+                  Recursive functions are functions that call themselves, usually until a certain result is reached.
               </p>
+              <img src={recur} alt="recursive dancing" class = "center"/><br></br>
           </div>
       </div>
-  
+      <div class = "note">
+        <h2 class = "center">Congratulations! You now know C++. Good job buddy, now let's learn CSS!! <br></br>(it's even more fun I swear :D)</h2><br></br>
+          <img src={ham} alt="sad and flat" class = "center"/>
+      </div>
   </section>
   
     );

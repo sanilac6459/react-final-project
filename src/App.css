@@ -3,7 +3,23 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
+  font-family: 'PT Sans', sans-serif;
 }
+
+body {
+  background-color: #B4DCE4;
+}
+
+.center{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 40%;
+
+}
+
 
 .logo {
   height: 6em;
@@ -15,6 +31,7 @@
 h1 {
   text-size-adjust: 20px;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -53,6 +70,6 @@ h1 {
 
 .text-big {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   /* text-align: left; */
 }
