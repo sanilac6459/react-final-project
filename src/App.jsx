@@ -15,6 +15,8 @@ import conditionals from "./img/conditionals.png"
 import conditionalGif from "./img/conditionalTantrum.gif"
 import functions from "./img/functions.png"
 import vector from "./img/vector.gif"
+import pointer from "./img/pointers.gif"
+import omnom from "./img/string.gif"
 
 // BIG THINGS HAPPENING
 
@@ -99,6 +101,8 @@ function App() {
                           string str2 = str1<strong>.substr(3,4)</strong>; // gram → gets 4 letters from index 3 <br></br>
                           string str3 = str1<strong>.substr(15)</strong>; // C++ → get all the letters from index 15
                         </ul>
+                        <br></br>
+                        <img src={omnom} alt="being annoyed by string" class = "center"/>
                       </ul>
                     </ul><br></br>
                     <h2> <li><strong>Conditionals</strong></li> </h2>
@@ -152,6 +156,7 @@ function App() {
               <p class="text-small">
                   Here is all the things you need to learn in C++
               </p>
+              <img src={pointer} alt="spiderman" class = "center"/>
           </div>
       </div>
   
