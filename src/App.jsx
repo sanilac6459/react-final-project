@@ -121,7 +121,7 @@ function App() {
                     <h2> <li><strong>Loops</strong></li> </h2> 
                     <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
                     <h2> <li><strong>Functions</strong></li> </h2>
-                    <img src={buttons} alt="buttons being pushed" class = "center"/>
+                    {/* <img src={buttons} alt="buttons being pushed" class = "center"/> */}
                     <ul>
                       <li>Functions are used to store pieces of code that does a single task in a defined block. Once you have implemented that, you can call that code when needed</li>
                       <li>The benefit of using functions that it <em>reduces</em> the redundancy of code</li>
@@ -129,7 +129,8 @@ function App() {
                       <li>There's also a function type called <strong>void</strong> which has <em>no return value</em></li>
                       <li>The image below is an example of a function to check if the first number (int n) is divisible by the second (int d):</li> <br></br>
                     </ul>
-                    <img src={functions} alt="" class = "center"/><br></br>
+                    <img src={functions} alt="" class = "center"/>
+                    <img src={buttons} alt="buttons being pushed" class = "center"/>
                     
                     <h2> <li><strong>Generating random numbers</strong></li> </h2>
                     <ul>
