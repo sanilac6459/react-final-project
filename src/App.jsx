@@ -42,9 +42,9 @@ function App() {
               </h1></strong>
               <img src={logo} alt="C++ Users nerd emoji gif" class = "center"/>
               <h3 class="sub-heading">
-                  Here is all the things you need to learn when programming in C++
+                  Here is all the things you need to learn when programming in C++<br></br>
+                  (Yes, we woke up and chose violence :D )
               </h3>
-              <h3>(Yes, we woke up and chose violence :D )</h3>
           </div>
       </div>
           
@@ -128,8 +128,8 @@ function App() {
                         <li>While loop → used to run infinite amount of times until the condition is false</li>
                         <li>For loop → used to run a certain amount of time until the condition is false</li>
                         <li>For each loop → a more simplified version of the for loop</li>
-        
                       </ul>
+                      <li>The image below are examples of the three loops:</li>
                       
                     </ul>
                     <br></br>
@@ -271,7 +271,10 @@ function App() {
               </h1>
               <p class="text-small">
                  <ul>
-                  <li>Recursive functions are functions that call themselves, usually until a certain result is reached</li>
+                  <li>Recursive functions are functions that call themselves repeatingly, until a certain result is reached</li>
+                  <li>It's mostly used to solve the original problem through sub-problems</li>
+                  <li>The benefit of recursion is that it reduces the time to write and debug code</li>
+                  <li>The image below is an example of recursion:</li>
                  </ul>
               </p>
               <img src={recursion} alt="" class = "center"/>
