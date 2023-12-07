@@ -19,6 +19,7 @@ import pointer from "./img/pointers.gif"
 import omnom from "./img/string.gif"
 import inheritance from "./img/matroyoshka.gif"
 import buttons from "./img/weirdAnimeboi.gif"
+import loops from "./img/loops.png"
 
 // BIG THINGS HAPPENING
 
@@ -119,9 +120,22 @@ function App() {
                     <img src={conditionals} alt="" class = "center"/>
                     <img src={conditionalGif} alt="" class = "center"/>
                     <h2> <li><strong>Loops</strong></li> </h2> 
+                    <ul>
+                      <li>Loops are used to repeat a block of code until a certain condition has been met. Once that condition becomes false, the loop would stop running</li>
+                      <li>There's three different loops:</li>
+                      <ul>
+                        <li>While loop → used to run infinite amount of times until the condition is false</li>
+                        <li>For loop → used to run a certain amount of time until the condition is false</li>
+                        <li>For each loop → a more simplified version of the for loop</li>
+        
+                      </ul>
+                      
+                    </ul>
+                    <br></br>
+                    <img src={loops} alt="" class = "center" id = "img"/> <br></br>
                     <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
                     <h2> <li><strong>Functions</strong></li> </h2>
-                    {/* <img src={buttons} alt="buttons being pushed" class = "center"/> */}
+                 
                     <ul>
                       <li>Functions are used to store pieces of code that does a single task in a defined block. Once you have implemented that, you can call that code when needed</li>
                       <li>The benefit of using functions that it <em>reduces</em> the redundancy of code</li>
