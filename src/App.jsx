@@ -38,7 +38,7 @@ function App() {
       <div class="box-main">
           <div class="firstHalf">
               <strong><h1 class="text-big">
-                  C++ for Dummies! <br></br>(Haha, we're all dummies trying to learn :D)
+              C++ for Dummies! <br></br>(Haha, we're all dummies trying to learn :D)
               </h1></strong>
               <img src={logo} alt="C++ Users nerd emoji gif" class = "center"/>
               <h3 class="sub-heading">
@@ -51,7 +51,7 @@ function App() {
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
-             Basics
+              <u>Basics</u>
               </h1>
             
                   <ul> 
@@ -59,7 +59,7 @@ function App() {
                     <li>At the end of every line [with some exceptions], remember to add a semi-colon or your program will break. The semicolon is kind of like the period in regular writing. It lets the compiler know when each line is done when it's reading the code.</li>
                     <li>When coding in the main function, <strong>int main()</strong>, add the syntax <strong>return 0; </strong> which will end your program once it's runned</li><br></br>
                     
-                     <h2> <li><strong>Print statements</strong></li> </h2>
+                     <h2> <li><strong><u>Print statements</u></strong></li> </h2>
                       <img src={helloWorld} alt="anime girl typing furiously to cout hello world" class = "center"/><br></br>
                         <ul>
                          <li>Use <strong>cout</strong> and the symbol <strong>{"<<"}</strong> to add onto your statement if needed</li>
@@ -68,18 +68,18 @@ function App() {
                             </ul>
                           
                         </ul><br></br>
-                        <h2> <li><strong>Taking in user's input</strong></li> </h2>
+                        <h2> <li><strong><u>Taking in user's input</u></strong></li> </h2>
                         <ul>
                           <li>Use <strong>cin</strong> and the symbol <strong>{">>"}</strong></li>
                         </ul><br></br>
-                        <h2>  <li><strong>New line</strong></li> </h2>
+                        <h2>  <li><strong><u>New line</u></strong></li> </h2>
                     <ul>
                       <li>Use <strong>\n</strong> or <strong>endl</strong> to add a new line after a statement</li>
                       <ul>
                       <li>Ex. "\n [your string]" or "your string" {"<<"} endl; → both can be used, and not just with strings. Concatenating \n with ints (integers), doubles (decimals), booleans (true or false), and more, is possible.</li>
                       </ul>
                     </ul><br></br>
-                    <h2> <li><strong>String methods</strong></li> </h2>
+                    <h2> <li><strong><u>String methods</u></strong></li> </h2>
                     <ul>
                       <li><strong>.length()</strong> or <strong>.size()</strong> → finding the length of a string</li>
                       <ul>
@@ -110,7 +110,7 @@ function App() {
                         <img src={omnom} alt="being annoyed by string" class = "center"/>
                       </ul>
                     </ul><br></br>
-                    <h2> <li><strong>Conditionals</strong></li> </h2>
+                    <h2> <li><strong><u>Conditionals</u></strong></li> </h2>
                     <ul>
                       <li>Conditionals are used to determine the flow of your program by evaluating conditions with bools (true or false). If a certain condition is <strong><em>true</em></strong>, the block of code with that condition will run. If the condition is <strong><em>false</em></strong>, that block of code will not run</li>
                       <li>In code, we used <strong>if-else</strong> statements, along with <strong>else if</strong> statements, to determine which code should be executed</li>
@@ -120,14 +120,14 @@ function App() {
                     <br></br>
                     <img src={conditionals} alt="" class = "center"/>
                     <img src={conditionalGif} alt="" class = "center"/>
-                    <h2> <li><strong>Loops</strong></li> </h2> 
+                    <h2> <li><strong><u>Loops</u></strong></li> </h2> 
                     <ul>
                       <li>Loops are used to repeat a block of code until a certain condition has been met. Once that condition becomes false, the loop would stop running</li>
                       <li>There's three different loops:</li>
                       <ul>
-                        <li>While loop → used to run infinite amount of times until the condition is false</li>
-                        <li>For loop → used to run a certain amount of time until the condition is false</li>
-                        <li>For each loop → a more simplified version of the for loop</li>
+                        <li><strong>While loop</strong> → used to run infinite amount of times until the condition is false</li>
+                        <li><strong>For loop</strong> → used to run a certain amount of time until the condition is false</li>
+                        <li><strong>For each loop</strong> → a more simplified version of the for loop</li>
                       </ul>
                       <li>The image below are examples of the three loops:</li>
                       
@@ -135,7 +135,7 @@ function App() {
                     <br></br>
                     <img src={loops} alt="" class = "center" id = "img"/> <br></br>
                     <img src={fruits} alt="fruit loops overwhelm ppl trying to learn loops lol" class = "center"/><br></br>
-                    <h2> <li><strong>Functions</strong></li> </h2>
+                    <h2> <li><strong><u>Functions</u></strong></li> </h2>
                  
                     <ul>
                       <li>Functions are used to store pieces of code that does a single task in a defined block. Once you have implemented that, you can call that code when needed</li>
@@ -147,7 +147,7 @@ function App() {
                     <img src={functions} alt="" class = "center"/>
                     <img src={buttons} alt="buttons being pushed" class = "center"/>
                     
-                    <h2> <li><strong>Generating random numbers</strong></li> </h2>
+                    <h2> <li><strong><u>Generating random numbers</u></strong></li> </h2>
                     <ul>
                       <li>Import the library <strong>#include {"<cstdlib>"}</strong> and <strong>#include {"<ctime>"}</strong></li>
                       <li>Add <strong>srand(time(NULL))</strong> to get all the results from the random sequence</li>
@@ -173,7 +173,7 @@ function App() {
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
-              Pointers 
+              <u> Pointers</u>
               </h1>
               <p class="text-small">
                   Here is all the things you need to learn in C++
@@ -187,7 +187,7 @@ function App() {
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
-              Object oriented
+              <u>Object oriented</u>
               </h1>
               <p class="text-small">
                 <ul>
@@ -227,7 +227,7 @@ function App() {
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
-              Vectors 
+              <u>Vectors</u> 
               </h1>
               <p class="text-small">
                 <ul>
@@ -236,10 +236,10 @@ function App() {
                   <li>Remember, to use vectors you <strong>MUST</strong> include <strong>#include {"<vector>"}</strong></li>
                   <li>The three most common functions used with vectors are:</li>
                   <ul>
-                  <li><strong>vectorName.push_back(element)</strong> : this adds element to the end of the list</li>
-                  <li><strong>vectorName[i]</strong> : Accesses the element at index i. Like with arrays, the indices start with 0</li>
-                  <li><strong>vectorName.pop_back() </strong>: removes the last element of the list</li>
-                  <li><strong>vectorName.size()</strong> : Returns an int representing the size of the array. The last index can be calculated by writing vectorName.size() - 1</li>
+                  <li><strong>vectorName.push_back(element)</strong> → this adds element to the end of the list</li>
+                  <li><strong>vectorName[i]</strong> → accesses the element at index i. Like with arrays, the indices start with 0</li>
+                  <li><strong>vectorName.pop_back()</strong> → removes the last element of the list</li>
+                  <li><strong>vectorName.size()</strong> → returns an int representing the size of the array. The last index can be calculated by writing vectorName.size() - 1</li>
 
                   </ul>
                 </ul>
@@ -254,7 +254,7 @@ function App() {
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
-              Inheritance  
+              <u>Inheritance</u>  
               </h1>
               <p class="text-small">
                   Here is all the things you need to learn in C++
@@ -268,14 +268,14 @@ function App() {
       <div class="box-main">
           <div class="firstHalf">
               <h1 class="text-big">
-              Recursion 
+              <u>Recursion</u> 
               </h1>
               <p class="text-small">
                  <ul>
                   <li>Recursive functions are functions that call themselves repeatingly, until a certain result is reached</li>
                   <li>It's mostly used to solve the original problem through sub-problems</li>
                   <li>The benefit of recursion is that it reduces the time to write and debug code</li>
-                  <li>The image below is an example of recursion:</li>
+                  <li>The image below is an example of recursion to print numbers in a certain range:</li>
                  </ul>
               </p>
               <img src={recursion} alt="" class = "center"/>
