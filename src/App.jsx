@@ -34,7 +34,7 @@ function App() {
     return (
       
   <section class="section">
-  <audio src="/home/rb4271/react-final-project/public/Hall-of-Horoscope.mp3" autoPlay loop />
+  <audio src="./assets/Hall-of-Horoscope.mp3" autoPlay loop />
       <div class="box-main">
           <div class="firstHalf">
               <strong><h1 class="text-big">
@@ -71,6 +71,8 @@ function App() {
                         <h2> <li><strong><u>Taking in user's input</u></strong></li> </h2>
                         <ul>
                           <li>Use <strong>cin</strong> and the symbol <strong>{">>"}</strong></li>
+                          <li><strong>Input Redirection: </strong> after compiling, type ./a.out {" < "} fileName.txt , assuming you want to read from a text file.
+                          <br></br>Then, declare a variable, and do cin {">>"} varName to get input as usual.</li>
                         </ul><br></br>
                         <h2>  <li><strong><u>New line</u></strong></li> </h2>
                     <ul>
