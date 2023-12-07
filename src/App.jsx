@@ -238,6 +238,7 @@ function App() {
                   <ul>
                   <li><strong>vectorName.push_back(element)</strong> : this adds element to the end of the list</li>
                   <li><strong>vectorName[i]</strong> : Accesses the element at index i. Like with arrays, the indices start with 0</li>
+                  <li><strong>vectorName.pop_back() </strong>: removes the last element of the list</li>
                   <li><strong>vectorName.size()</strong> : Returns an int representing the size of the array. The last index can be calculated by writing vectorName.size() - 1</li>
 
                   </ul>
