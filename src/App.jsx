@@ -125,9 +125,13 @@ function App() {
                       <li>Loops are used to repeat a block of code until a certain condition has been met. Once that condition becomes false, the loop would stop running</li>
                       <li>There's three different loops:</li>
                       <ul>
-                        <li><strong>While loop</strong> → used to run infinite amount of times until the condition is false</li>
-                        <li><strong>For loop</strong> → used to run a certain amount of time until the condition is false</li>
-                        <li><strong>For each loop</strong> → a more simplified version of the for loop</li>
+                        <li><strong>While loop</strong> →Runs until the set condition (declared in loop header) is false</li>
+                        <li><strong>For loop</strong> → Runs a certain amount of times, usually defined by the user/coder.</li>
+                        <li><strong>For each loop</strong> → Similar to a for loop, but you don't define the bounds. It automatically iterates through everything. Usually used to go trhough vectors and arrays.</li>
+                        <br></br>
+                        <li>In short, while loops if you're not sure how many times it needs to loop, for loops if you DO know, and for each if you want to loop through everything.
+                          <br></br> Of course, you can use while loops and for loops interchangeable sometimes, and for each loops can be replaced by regular for loops. Mix and match!
+                        </li>
                       </ul>
                       <li>The image below are examples of the three loops:</li>
                       
@@ -257,7 +261,10 @@ function App() {
               <u>Inheritance</u>  
               </h1>
               <p class="text-small">
-                  Here is all the things you need to learn in C++
+                  Before we learned that the purpose of <strong>Classes</strong> is to simplify our code and reduce redundancy. But what if you already have a great class, but need to add a few more things?
+                  <br></br> Sure, you can modify your existing class declaration, but that would be annoying, since you'd have to modify all your existing objects of that class as well.
+                  <br></br><strong>Solution: </strong> Create a <strong>subclass</strong>
+
               </p>
               <img src={inheritance} alt="" class = "center"/>
           </div>
