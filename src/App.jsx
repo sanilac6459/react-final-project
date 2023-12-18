@@ -187,13 +187,23 @@ function App() {
               <u> Pointers</u>
               </h1>
               <p class="text-small">
-                  <u1>
+                  <ul>
                     <li>Pointers are... well they point to another variable!</li>
-                    <li>Each variable you make have their own unique hexcode stored in it</li>
-                    <li>And pointers store those hexcodes and therefore can modify the original variable!</li>
-                    <br></br>
+                    <li>Each variable you make have their own unique <strong>address</strong> stored in it</li>
+                    <li>And pointers take in the address of the variable you want it to point to and can be used to modify the original variable!</li>
+                    <li>There are three ways to define and initialize a pointer (for this example, we will be using an integer pointer): </li>
+                    <ul>
+                      <li><strong>int* variableName = nullptr</strong></li>
+                      <li> <strong>int a = 4</strong> <br></br>
+                      <strong>int* pointerToA = &a</strong></li>
+                      <li><strong>int* variableName = new int</strong></li>
+                    </ul>
+                  </ul>
+
+                  <h2><li><strong><u>Using a Pointer</u></strong></li></h2>
+                  <ul>
                     <li></li>
-                  </u1>
+                  </ul>
               </p>
               <img src={pointer} alt="spiderman" class = "center"/>
           </div>
