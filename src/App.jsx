@@ -196,13 +196,26 @@ function App() {
                       <li><strong>int* variableName = nullptr</strong></li>
                       <li> <strong>int a = 4</strong> <br></br>
                       <strong>int* pointerToA = &a</strong></li>
+                      <ul>
+                        <li>The & operator displays the address of the datatype</li>
+                      </ul>
                       <li><strong>int* variableName = new int</strong></li>
+                      <ul>
+                        <li>Note: the location of the <strong>*</strong> doesn't matter as long as it's between the data type and the name of the variable, and that there's a space separating the data type and variable name.</li>
+                      </ul>
                     </ul>
                   </ul>
 
                   <h2><li><strong><u>Using a Pointer</u></strong></li></h2>
                   <ul>
-                    <li></li>
+                    <li>Pointers point to the address of another variable's data</li>
+                    <li>Therefore, it can change that data. For example:</li>
+                    <ul>
+                      <li>int a = 8; <br></br> int* ptr = &a; <br></br> *ptr = 5</li>
+                      <li>If you print out a, it should be 5</li>
+                    </ul>
+                    <li>In the example, you needed the <strong>*</strong> before the variable name. This is important because pointers store addresses, so if you want to change the value of the int a, you need to make it point to the original variable.</li>
+                    <li>Therefore, if you try to print out the value of ptr, you would get the address, but printing out *ptr would print out the value.</li>
                   </ul>
               </p>
               <img src={pointer} alt="spiderman" class = "center"/>
