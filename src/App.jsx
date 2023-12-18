@@ -21,16 +21,18 @@ import inheritance from "./img/matroyoshka.gif"
 import buttons from "./img/weirdAnimeboi.gif"
 import loops from "./img/loops.png"
 import recursion from "./img/recursion.png"
+import useSound from 'use-sound'
 
 // BIG THINGS HAPPENING
 
 
 function App() {
     const [count, setCount] = useState(0)
-    function play()
-    {
-      new Audio(bgMusic).play()
-    }
+    // function play()
+    // {
+    //   new Audio(bgMusic).play()
+    // }
+    const [playSound] = useSound(bgMusic);
     return (
       
   <section class="section">
@@ -45,6 +47,9 @@ function App() {
                   Here is all the things you need to learn when programming in C++<br></br>
                   (Yes, we woke up and chose violence :D )
               </h3>
+              <div class="sound-button">
+                <button onClick={playSound}>Play BGM</button>
+              </div>
           </div>
       </div>
           
@@ -182,7 +187,13 @@ function App() {
               <u> Pointers</u>
               </h1>
               <p class="text-small">
-                  Here is all the things you need to learn in C++
+                  <u1>
+                    <li>Pointers are... well they point to another variable!</li>
+                    <li>Each variable you make have their own unique hexcode stored in it</li>
+                    <li>And pointers store those hexcodes and therefore can modify the original variable!</li>
+                    <br></br>
+                    <li></li>
+                  </u1>
               </p>
               <img src={pointer} alt="spiderman" class = "center"/>
           </div>

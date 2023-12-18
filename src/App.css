@@ -76,3 +76,7 @@ h1 {
   /* display: flex; */
   /* text-align: left; */
 }
+
+.sound-button {
+  text-align: center;
+}
