@@ -250,6 +250,20 @@ function App() {
                       <li>You will have then created a 2D pointer array with 5 rows and 4 columns!</li>
                     </ul>
 
+                    <h2><li><strong><u>Dynamic Memory Allocation</u></strong></li></h2>
+                    <ul>
+                      <li>When using pointers, you might not need it anymore after some time, therefore you would want to delete it so it can free up memory!</li>
+                      <li>This is called <strong>dynamic memory allocation</strong>!</li>
+                      <li>By using the key words <strong>delete</strong> for a single element/variable and <strong>delete[]</strong> for an array of elements, you can delete the data of the pointer to free up space. If you're pointing to another variable, that variable will still exist, it's only the pointer that's being freed up in order to make more memory avaiable</li>
+                      <li>Using delete is not the end though, after that you want to avoid the <strong>dangling pointer</strong> problem</li>
+                      <li>A <strong>dangling pointer</strong> is when there is a pointer that is pointing to data that is invalid, or is already deleted</li>
+                      <li>Therefore, in order to avoid the dangling pointer problem, you want to set your variable or array to <strong>nullptr</strong>. For example:</li>
+                      <ul>
+                        <li><strong>delete</strong> a; <br></br> a = <strong>nullptr</strong>;</li>
+                        <li><strong>delete[]</strong> a; <br></br> a = <strong>nullptr</strong>;</li>
+                      </ul>
+                      <li>Remember to delete any data you don't need anymore to free up memory!</li>
+                    </ul>
                   </ul>
               </p>
               <img src={pointer} alt="spiderman" class = "center"/>
