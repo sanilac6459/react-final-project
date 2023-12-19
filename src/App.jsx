@@ -217,6 +217,27 @@ function App() {
                     <li>In the example, you needed the <strong>*</strong> before the variable name. This is important because pointers store addresses, so if you want to change the value of the int a, you need to make it point to the original variable.</li>
                     <li>Therefore, if you try to print out the value of ptr, you would get the address, but printing out *ptr would print out the value.</li>
                   </ul>
+
+                  <h2><li><strong><u>Pointers in Arrays</u></strong></li></h2>
+                  <ul>
+                    <li>Pointers also work alongside arrays!</li>
+                    <li>For example, you can create an array of pointers: </li>
+                    <ul>
+                      <li><strong>int* arr = {'{'}5,6,7,8{'}'};</strong></li>
+                      <li>int size = 6; <br></br> int* arr = new int[5]</li>
+                    </ul>
+                    <li>But, that is not the only thing pointers can do for arrays...</li>
+                    <li>In a program, the name of the array actually stores the address of the first element in the array!</li>
+                    <ul>
+                      <li>Therefore, if you have an array initialized as int arr[5]; <strong>arr == &arr[0]</strong></li>
+                    </ul>
+                    <li>So, when you use a pointer on an array name, you get the value of the first element</li>
+                    <li>If you want the other elements, you can add numbers depending on the size of the array. This is able to happen because the addresses for each of the elements are next to each other.</li>
+                    <ul>
+                      <li>For example, in int arr[] = {'{'}1,2,3{'}'} <br></br> (arr+1) == &arr[1] <br></br> and *(arr+2) == arr[2]</li>
+                    </ul>
+
+                  </ul>
               </p>
               <img src={pointer} alt="spiderman" class = "center"/>
           </div>
