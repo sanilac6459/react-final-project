@@ -237,6 +237,19 @@ function App() {
                       <li>For example, in int arr[] = {'{'}1,2,3{'}'} <br></br> (arr+1) == &arr[1] <br></br> and *(arr+2) == arr[2]</li>
                     </ul>
 
+                    <h2><li><strong><u>Pointers in 2D Arrays</u></strong></li></h2>
+                    <ul>
+                      <li>You can also make a 2D array of pointers!</li>
+                      <li>In order to create and initialize a 2D array of pointers, you must follow these steps:</li>
+                      <ul>
+                        <li>int size = 4; <br></br> int** arr = new int* arr[5]; <br></br> for(int i = 0; i {'<'} 5; i++) {'{'} <br></br> arr[i] = new int[size]; <br></br> {'}'}</li>
+                        <ul>
+                          <li>The reason why we use <strong>**</strong> instead of just <strong>*</strong> is to make sure we have two sets of pointers instead of one</li>
+                        </ul>
+                      </ul>
+                      <li>You will have then created a 2D pointer array with 5 rows and 4 columns!</li>
+                    </ul>
+
                   </ul>
               </p>
               <img src={pointer} alt="spiderman" class = "center"/>
