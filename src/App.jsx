@@ -365,7 +365,22 @@ function App() {
                     
                     <h2><li><strong><u>Using Subclasses</u></strong></li></h2>
                     <ul>
-                      <li></li>
+                      <li>In order to derive all the <strong>public</strong> properties, you must declare the subclass in the following way: </li>
+                      <ul>
+                        <li>
+                          <strong>class</strong> subclassNAME <strong>: public</strong> superclassName
+                        </li>
+                      </ul>
+                      <li>You can also use the superclass's methods and constructors by using scope to inherit those properties. For example: </li>
+                      <ul>
+                        <li>Student::Student(datatype parameter1, datatype parameter2) : Person(datatype parameter1)</li>
+                      </ul>
+                      <li>In addition, when making objects from subclasses, you have to be careful when setting an object equal to another object because only superclasses can be set by a subclass. For example: </li>
+                      <ul>
+                        <li>Person p; <br></br> Student s;</li>
+                        <li><strong>p = s</strong> is <strong>allowed</strong>. This is because Student has all the properties Person has already, so a Person can be set by a Student</li>
+                        <li><strong>s = p</strong> is <strong>not allowed</strong>. This is because Student is the subclass, so they have more properties that the Person class is missing. Therefore, a Student can't be set by a Person</li>
+                      </ul>
                     </ul>
 
                   </ul>
