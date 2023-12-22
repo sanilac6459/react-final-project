@@ -8,7 +8,6 @@ import ObjectOriented from './components/ObjectOriented'
 import Vectors from './components/Vectors'
 import Inheritance from './components/Inheritance'
 import Recursion from './components/Recursion'
-import PlaySound from './components/Sound'
 
 // BIG THINGS HAPPENING
 
@@ -18,7 +17,6 @@ function App() {
     return (
       
   <section class="section">
-  <PlaySound/>
       <div class="box-main">
           <div class="firstHalf">
               <strong><h1 class="text-big">
@@ -27,9 +25,7 @@ function App() {
               <img src={logo} alt="C++ Users nerd emoji gif" class = "center"/>
               <h3 class="sub-heading">
                   Here is all the things you need to learn when programming in C++<br></br>
-                  (Yes, we woke up and chose violence :D ) <br></br>
-                  <br></br>
-                  (Music by Soichi Terada)
+                  (Yes, we woke up and chose violence :D )
               </h3>
           </div>
       </div>
