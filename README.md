@@ -16,5 +16,5 @@ Creators:
 * [Sanila Chowdhury](https://github.com/sanilac6459)
 * [Maida Kucevic](https://github.com/maida5)
 
-As a wrap up of our C++ programming class, we created a website to help users learn the fundamentals of C++, whether they need it for their programming class or wants to learn it for fun.
+As a wrap up of our C++ programming class, we designed a website for users learn the fundamentals of C++, whether they need it for their programming class or wants to learn it for fun.
 
