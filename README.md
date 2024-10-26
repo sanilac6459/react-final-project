@@ -1,7 +1,6 @@
 # React Final Project: C++ for Dummies Website
 [Link to website](https://sanilac6459.github.io/react-final-project/)
 
-Tools: React + Vite
 
 Creators: 
 * [Rachel Briskman](https://github.com/TheSimmer101)
